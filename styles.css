@@ -1,0 +1,442 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* upper head start */
+
+.uphead {
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}
+
+/* upper head end */
+
+/* header start */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-txt{
+    text-align: center;
+}
+
+.header-nba img{
+    height: 190px;
+    width: 400px;
+    margin-right: 10px;
+}
+
+.header-txt h1 {
+    color: rgb(204, 5, 5);
+    margin-top: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header-txt h3 {
+    color: blue;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.header-txt p {
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+/* header end */
+
+/* news start */
+
+.news {
+    display: flex;
+    border: 2px solid brown;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.news h3 {
+    width: 150px;
+    background-color: rgb(67, 116, 207);
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+}
+.news marquee {
+    padding: 3px;
+}
+
+/* news end */
+
+/* nav start */
+
+.nav {
+    background-color: orangered;
+    color: white;
+    height: 60px;
+}
+
+.nav ul {
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.nav ul li {
+    transition: 0.5s;
+    cursor: pointer;
+    height: 50px;
+    width: fit-content;
+    padding: 15px;
+    margin-top: -15px;
+}
+
+.nav ul li:hover{
+    background-color: rgb(176, 12, 12);
+}
+
+/* nav end */
+
+/* background image start */
+
+.bgimg img{
+    width: 100%;
+}
+
+/* background image end */
+
+/* about start */
+
+.about {
+    margin: 10px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.col1 {
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.251);
+}
+
+.col1 h1 {
+    background-color: white;
+    color: rgb(6, 6, 149);
+}
+
+#span1{
+    color: brown;
+}
+
+.col1 img{
+    width: 100%;
+    height: 400px;
+}
+
+#span2 {
+    font-weight: 900;
+}
+
+.col1 p {
+    margin-top: 10px;
+    line-height: 30px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.col1 button {
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(27, 112, 152);
+    color: white;
+    cursor: pointer;
+}
+
+.col1 button:hover {
+    background-color: blue;
+}
+
+
+.col2 {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.dept {
+    margin-top: 30px;
+}
+
+.dept h1 {
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+
+#cse {
+    line-height: 50px;
+    cursor: pointer;
+    list-style:disc;
+    padding-left: 50px;
+}
+
+#cse li:hover {
+    color: red;
+    padding-left: 30px;
+}
+
+.col2 button {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(27, 112, 152);
+    color: white;
+    cursor: pointer;
+}
+
+.col2 button:hover {
+    background-color: blue;
+}
+
+.about-video video {
+    width: 100%;
+    padding: 20px;
+}
+
+/* about end */
+
+/* placement start */
+
+.placement {
+    background-color: rgb(162, 162, 159);
+    text-align: center;
+}
+
+.placement h3 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.placement img {
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* placement end */
+
+/* facilities start */
+
+.facilities {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    gap: 10px;
+}
+
+.box1 {
+    margin-top: 40px;
+    width: 300px;
+    height: fit-content;
+    background-color: rgb(54, 44, 26);
+    text-align: center;
+    color: white;
+    cursor:pointer;
+}
+
+.box1:hover {
+    background-color: rgb(162, 162, 10);
+}
+
+.box1:hover p {
+    color: black;
+}
+
+.box1 img {
+    width: 100%;
+}
+
+.box1 h1{
+    margin-bottom: 15px;
+}
+
+.box1 button {
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.box1 button:hover {
+    background-color: rgb(54, 44, 26);
+    color: darkolivegreen;
+}
+
+/* facilities end */
+
+/* footer start */
+
+footer {
+    background-color:  darkslategrey;
+}
+
+.in-footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkslategrey;
+    color: white;
+    padding-top: 50px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+footer li:hover{
+    color: red;
+}
+
+footer h3 {
+    color: rgb(18, 233, 18);
+    margin-bottom: 50px;
+}
+
+footer p {
+    color: white;
+    line-height: 30px;
+}
+
+footer a:hover {
+    color: red;
+}
+
+footer li {
+    margin-bottom: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    transition: 1s;
+}
+
+footer hr {
+    margin-bottom: 15px;
+}
+
+.footer-about,
+.link,
+.contact,
+.location {
+    width: 300px;
+}
+
+.location iframe {
+    width: 350px;
+    height:150px;
+}
+
+.fblogo{
+    display: flex;
+    justify-content: end;
+    margin-right: 60px;
+}
+
+.fblogo>img {
+    height: 100px;
+    cursor: pointer;
+}
+
+.copyright{
+    text-align: center;
+    color: rgb(44, 42, 42);
+}
+
+.copyright h1 {
+    padding: 20px;
+}
+
+/* footer end */
+
+@media screen and (max-width:800px){
+    .about{
+        margin:0%;
+    }
+    .col1{
+        flex-basis: 100%;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .col2{
+        flex-basis: 100%;
+        margin: 0%;
+    }
+
+    .box1{
+        width: 40%;
+    }
+
+    .in-footer{
+        text-align: center;
+        gap: 20px;
+    }
+
+    .location iframe {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .about{
+        margin:0%;
+        padding: 0%;
+    }
+    .col1{
+        flex-basis: 100%;
+        font-size: 8.5px;
+        margin-top: 20px;
+    }
+    .col2{
+        flex-basis: 100%;
+        margin: 0%;
+    }
+
+    .placement h3 {
+        font-size: 30px;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .in-footer{
+        text-align: center;
+        gap: 20px;
+    }
+
+    .location iframe {
+        width: 300px;
+    }
+
+}
